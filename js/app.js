@@ -8,4 +8,10 @@ $(document).ready(function() {
    // 	alert("true");
     //}
     })
+   $(".ItemRemove, ItemRemoved").mousedown(function() {
+  	$(this).closest('.ListItem').remove();
+  	//Having difficulty selecting the intersection of ItemRemove and ItemRemoved
+
+
+    })
   })
