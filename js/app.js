@@ -9,9 +9,10 @@ $(document).ready(function() {
     //}
     })
    $(".ItemRemove, ItemRemoved").mousedown(function() {
-  	$(this).closest('.ListItem').remove();
-  	//Having difficulty selecting the intersection of ItemRemove and ItemRemoved
-
-
+  		$(this).closest('.ListItem').remove();
+  		//Having difficulty selecting the intersection of ItemRemove and ItemRemoved
+    })
+    $("#add").click(function() {
+  		$(this).closest('.main').find('.ListContainer').prepend("<div class='ListItem'><div class='box'></div><div class='ItemText'><p>Item 1</p></div><div class='ItemRemove'></div></div>");
     })
   })
