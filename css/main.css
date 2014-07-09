@@ -1,0 +1,117 @@
+* {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.body {
+  	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Arial';
+}
+
+.main {
+	margin-left: auto;
+	margin-right: auto;
+	width:500px;
+	background-color: white;
+	height:650px;
+}
+
+.Title {
+	margin-left: auto;
+	margin-right: auto;
+	width:500px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	height:7.5%;
+}
+
+.Inputs {
+	width:50%;
+  	margin-left: auto;
+	margin-right: auto;
+}
+
+.InputContainer {
+	height:7.5%;
+}
+
+.ListContainer {
+	height:20%;
+}
+
+.ListItem {
+	clear:both;
+	height:14%
+}
+
+.box {
+	margin-left:1.5%;
+	float:left;
+	height:100%;
+	width:3.5%;
+	background-image: url('../images/box.png');
+}
+
+.ItemText {
+	padding-left:6.5%;
+	float:left;
+	width:80%;
+}
+
+.ItemRemoved {
+	float:left;
+	background-image: url('../images/delete.png');
+	background-size:90%;
+	width:3.5%;
+	background-repeat:no-repeat;
+	height:100%;
+}
+
+.boxRemoved {
+	margin-left:1.5%;
+	float:left;
+	height:100%;
+	width:3.5%;
+	background-image: url('../images/Checked_box.png');
+}
+
+.ItemTextRemoved {
+	padding-left:6.5%;
+	float:left;
+	width:80%;
+	text-decoration:line-through;
+}
+
+.RemoveCheckedItems {
+	float:right;
+	background-color:red;
+	color:white;
+	width:25%;
+	font-size:x-small;
+	text-align: center;
+	margin-right:3%;
+}
+
+.RemoveCheckContainer {
+	padding-top:2.5%;
+	padding-bottom:2.5%;
+	height:5%;
+}
+
+.bottom-space {
+	height:60%;
+}
+
+.RemoveAllContainer {
+	height:5%;
+}
+
+.RemoveAll {
+	margin-right: auto;
+	margin-left:auto;
+	background-color:red;
+	color:white;
+	width:25%;
+	text-align:center;
+}
