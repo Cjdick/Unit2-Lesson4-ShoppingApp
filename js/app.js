@@ -13,6 +13,6 @@ $(document).ready(function() {
   		//Having difficulty selecting the intersection of ItemRemove and ItemRemoved
     })
     $("#add").click(function() {
-  		$(this).closest('.main').find('.ListContainer').prepend("<div class='ListItem'><div class='box'></div><div class='ItemText'><p>Item 1</p></div><div class='ItemRemove'></div></div>");
+  		$(this).closest('.main').find('.ListContainer').prepend("<div class='ListItem'><div class='box'></div><div class='ItemText'><p>"+$("#entry").val()+"</p></div><div class='ItemRemove'></div></div>");
     })
   })
